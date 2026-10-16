@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "people": [
+    {"id": "henry", "name": "Henry Clark", "birthDate": "1920-03-14", "deathDate": "1995-08-02", "createdAt": "2026-01-01T00:00:00Z", "updatedAt": "2026-01-01T00:00:00Z"},
+    {"id": "martha", "name": "Martha Clark", "birthDate": "1923-07-21", "deathDate": "2001-11-09", "createdAt": "2026-01-01T00:00:00Z", "updatedAt": "2026-01-01T00:00:00Z"},
+    {"id": "alice", "name": "Alice Clark", "birthDate": "1947-02-10", "deathDate": null, "createdAt": "2026-01-01T00:00:00Z", "updatedAt": "2026-01-01T00:00:00Z"},
+    {"id": "bob", "name": "Bob Clark", "birthDate": "1950-06-05", "deathDate": null, "createdAt": "2026-01-01T00:00:00Z", "updatedAt": "2026-01-01T00:00:00Z"},
+    {"id": "tom", "name": "Tom Reed", "birthDate": "1945-09-30", "deathDate": null, "createdAt": "2026-01-01T00:00:00Z", "updatedAt": "2026-01-01T00:00:00Z"},
+    {"id": "sue", "name": "Sue Miller", "birthDate": "1952-12-12", "deathDate": null, "createdAt": "2026-01-01T00:00:00Z", "updatedAt": "2026-01-01T00:00:00Z"},
+    {"id": "carol", "name": "Carol Reed", "birthDate": "1973-04-18", "deathDate": null, "createdAt": "2026-01-01T00:00:00Z", "updatedAt": "2026-01-01T00:00:00Z"},
+    {"id": "dave", "name": "Dave Clark", "birthDate": "1976-10-25", "deathDate": null, "createdAt": "2026-01-01T00:00:00Z", "updatedAt": "2026-01-01T00:00:00Z"},
+    {"id": "ian", "name": "Ian Shaw", "birthDate": "1971-01-08", "deathDate": null, "createdAt": "2026-01-01T00:00:00Z", "updatedAt": "2026-01-01T00:00:00Z"},
+    {"id": "jane", "name": "Jane Lopez", "birthDate": "1978-05-19", "deathDate": null, "createdAt": "2026-01-01T00:00:00Z", "updatedAt": "2026-01-01T00:00:00Z"},
+    {"id": "eve", "name": "Eve Shaw", "birthDate": "2002-08-15", "deathDate": null, "createdAt": "2026-01-01T00:00:00Z", "updatedAt": "2026-01-01T00:00:00Z"},
+    {"id": "frank", "name": "Frank Clark", "birthDate": "2005-03-03", "deathDate": null, "createdAt": "2026-01-01T00:00:00Z", "updatedAt": "2026-01-01T00:00:00Z"}
+  ],
+  "relationships": [
+    {"parentId": "henry", "childId": "alice"},
+    {"parentId": "martha", "childId": "alice"},
+    {"parentId": "henry", "childId": "bob"},
+    {"parentId": "martha", "childId": "bob"},
+    {"parentId": "alice", "childId": "carol"},
+    {"parentId": "tom", "childId": "carol"},
+    {"parentId": "bob", "childId": "dave"},
+    {"parentId": "sue", "childId": "dave"},
+    {"parentId": "carol", "childId": "eve"},
+    {"parentId": "ian", "childId": "eve"},
+    {"parentId": "dave", "childId": "frank"},
+    {"parentId": "jane", "childId": "frank"}
+  ]
+}
